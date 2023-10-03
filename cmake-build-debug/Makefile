@@ -129,29 +129,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/build
 .PHONY : 2_stl/fast
 
-Partition.o: Partition.cpp.o
-.PHONY : Partition.o
+SortSubrange.o: SortSubrange.cpp.o
+.PHONY : SortSubrange.o
 
 # target to build an object file
-Partition.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/Partition.cpp.o
-.PHONY : Partition.cpp.o
+SortSubrange.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SortSubrange.cpp.o
+.PHONY : SortSubrange.cpp.o
 
-Partition.i: Partition.cpp.i
-.PHONY : Partition.i
+SortSubrange.i: SortSubrange.cpp.i
+.PHONY : SortSubrange.i
 
 # target to preprocess a source file
-Partition.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/Partition.cpp.i
-.PHONY : Partition.cpp.i
+SortSubrange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SortSubrange.cpp.i
+.PHONY : SortSubrange.cpp.i
 
-Partition.s: Partition.cpp.s
-.PHONY : Partition.s
+SortSubrange.s: SortSubrange.cpp.s
+.PHONY : SortSubrange.s
 
 # target to generate assembly for a file
-Partition.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/Partition.cpp.s
-.PHONY : Partition.cpp.s
+SortSubrange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SortSubrange.cpp.s
+.PHONY : SortSubrange.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 2_stl"
-	@echo "... Partition.o"
-	@echo "... Partition.i"
-	@echo "... Partition.s"
+	@echo "... SortSubrange.o"
+	@echo "... SortSubrange.i"
+	@echo "... SortSubrange.s"
 .PHONY : help
 
 

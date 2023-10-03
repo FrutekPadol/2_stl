@@ -8,4 +8,5 @@ add_executable(2_stl
 #        STLpro.cpp
 #        Simpson.cpp
 #        SimpsonPro.cpp
-        Partition.cpp)
+#        Partition.cpp
+        SortSubrange.cpp)

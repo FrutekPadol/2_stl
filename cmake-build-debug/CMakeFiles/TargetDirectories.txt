@@ -1,0 +1,3 @@
+/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/cmake-build-debug/CMakeFiles/2_stl.dir
+/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/cmake-build-debug/CMakeFiles/rebuild_cache.dir

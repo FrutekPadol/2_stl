@@ -9,4 +9,5 @@ add_executable(2_stl
 #        Simpson.cpp
 #        SimpsonPro.cpp
 #        Partition.cpp
-        SortSubrange.cpp)
+        SortSubrange.cpp
+        ExtractStrings.cpp)

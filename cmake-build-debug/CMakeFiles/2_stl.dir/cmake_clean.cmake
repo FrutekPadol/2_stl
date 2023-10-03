@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "2_stl"
   "2_stl.pdb"
+  "CMakeFiles/2_stl.dir/ExtractStrings.cpp.o"
+  "CMakeFiles/2_stl.dir/ExtractStrings.cpp.o.d"
   "CMakeFiles/2_stl.dir/SortSubrange.cpp.o"
   "CMakeFiles/2_stl.dir/SortSubrange.cpp.o.d"
 )

@@ -129,6 +129,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/build
 .PHONY : 2_stl/fast
 
+ExtractStrings.o: ExtractStrings.cpp.o
+.PHONY : ExtractStrings.o
+
+# target to build an object file
+ExtractStrings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/ExtractStrings.cpp.o
+.PHONY : ExtractStrings.cpp.o
+
+ExtractStrings.i: ExtractStrings.cpp.i
+.PHONY : ExtractStrings.i
+
+# target to preprocess a source file
+ExtractStrings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/ExtractStrings.cpp.i
+.PHONY : ExtractStrings.cpp.i
+
+ExtractStrings.s: ExtractStrings.cpp.s
+.PHONY : ExtractStrings.s
+
+# target to generate assembly for a file
+ExtractStrings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/ExtractStrings.cpp.s
+.PHONY : ExtractStrings.cpp.s
+
 SortSubrange.o: SortSubrange.cpp.o
 .PHONY : SortSubrange.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 2_stl"
+	@echo "... ExtractStrings.o"
+	@echo "... ExtractStrings.i"
+	@echo "... ExtractStrings.s"
 	@echo "... SortSubrange.o"
 	@echo "... SortSubrange.i"
 	@echo "... SortSubrange.s"

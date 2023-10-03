@@ -153,30 +153,6 @@ ExtractStrings.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/ExtractStrings.cpp.s
 .PHONY : ExtractStrings.cpp.s
 
-SortSubrange.o: SortSubrange.cpp.o
-.PHONY : SortSubrange.o
-
-# target to build an object file
-SortSubrange.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SortSubrange.cpp.o
-.PHONY : SortSubrange.cpp.o
-
-SortSubrange.i: SortSubrange.cpp.i
-.PHONY : SortSubrange.i
-
-# target to preprocess a source file
-SortSubrange.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SortSubrange.cpp.i
-.PHONY : SortSubrange.cpp.i
-
-SortSubrange.s: SortSubrange.cpp.s
-.PHONY : SortSubrange.s
-
-# target to generate assembly for a file
-SortSubrange.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SortSubrange.cpp.s
-.PHONY : SortSubrange.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +165,6 @@ help:
 	@echo "... ExtractStrings.o"
 	@echo "... ExtractStrings.i"
 	@echo "... ExtractStrings.s"
-	@echo "... SortSubrange.o"
-	@echo "... SortSubrange.i"
-	@echo "... SortSubrange.s"
 .PHONY : help
 
 

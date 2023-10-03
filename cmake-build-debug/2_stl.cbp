@@ -85,9 +85,6 @@
 		<Unit filename="/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/ExtractStrings.cpp">
 			<Option target="2_stl"/>
 		</Unit>
-		<Unit filename="/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/SortSubrange.cpp">
-			<Option target="2_stl"/>
-		</Unit>
 		<Unit filename="/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

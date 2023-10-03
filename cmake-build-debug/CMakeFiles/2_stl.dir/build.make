@@ -69,28 +69,28 @@ include CMakeFiles/2_stl.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2_stl.dir/flags.make
 
-CMakeFiles/2_stl.dir/SimpsonPro.cpp.o: CMakeFiles/2_stl.dir/flags.make
-CMakeFiles/2_stl.dir/SimpsonPro.cpp.o: /home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/SimpsonPro.cpp
-CMakeFiles/2_stl.dir/SimpsonPro.cpp.o: CMakeFiles/2_stl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2_stl.dir/SimpsonPro.cpp.o"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2_stl.dir/SimpsonPro.cpp.o -MF CMakeFiles/2_stl.dir/SimpsonPro.cpp.o.d -o CMakeFiles/2_stl.dir/SimpsonPro.cpp.o -c /home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/SimpsonPro.cpp
+CMakeFiles/2_stl.dir/Partition.cpp.o: CMakeFiles/2_stl.dir/flags.make
+CMakeFiles/2_stl.dir/Partition.cpp.o: /home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/Partition.cpp
+CMakeFiles/2_stl.dir/Partition.cpp.o: CMakeFiles/2_stl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2_stl.dir/Partition.cpp.o"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/2_stl.dir/Partition.cpp.o -MF CMakeFiles/2_stl.dir/Partition.cpp.o.d -o CMakeFiles/2_stl.dir/Partition.cpp.o -c /home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/Partition.cpp
 
-CMakeFiles/2_stl.dir/SimpsonPro.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_stl.dir/SimpsonPro.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/SimpsonPro.cpp > CMakeFiles/2_stl.dir/SimpsonPro.cpp.i
+CMakeFiles/2_stl.dir/Partition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_stl.dir/Partition.cpp.i"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/Partition.cpp > CMakeFiles/2_stl.dir/Partition.cpp.i
 
-CMakeFiles/2_stl.dir/SimpsonPro.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_stl.dir/SimpsonPro.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/SimpsonPro.cpp -o CMakeFiles/2_stl.dir/SimpsonPro.cpp.s
+CMakeFiles/2_stl.dir/Partition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_stl.dir/Partition.cpp.s"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/Partition.cpp -o CMakeFiles/2_stl.dir/Partition.cpp.s
 
 # Object files for target 2_stl
 2_stl_OBJECTS = \
-"CMakeFiles/2_stl.dir/SimpsonPro.cpp.o"
+"CMakeFiles/2_stl.dir/Partition.cpp.o"
 
 # External object files for target 2_stl
 2_stl_EXTERNAL_OBJECTS =
 
-2_stl: CMakeFiles/2_stl.dir/SimpsonPro.cpp.o
+2_stl: CMakeFiles/2_stl.dir/Partition.cpp.o
 2_stl: CMakeFiles/2_stl.dir/build.make
 2_stl: CMakeFiles/2_stl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 2_stl"

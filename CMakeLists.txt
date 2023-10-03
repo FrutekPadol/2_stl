@@ -7,4 +7,5 @@ add_executable(2_stl
 #        STLintro.cpp
 #        STLpro.cpp
 #        Simpson.cpp
-        SimpsonPro.cpp)
+#        SimpsonPro.cpp
+        Partition.cpp)

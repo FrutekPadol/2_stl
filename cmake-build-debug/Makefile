@@ -129,29 +129,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/build
 .PHONY : 2_stl/fast
 
-SimpsonPro.o: SimpsonPro.cpp.o
-.PHONY : SimpsonPro.o
+Partition.o: Partition.cpp.o
+.PHONY : Partition.o
 
 # target to build an object file
-SimpsonPro.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SimpsonPro.cpp.o
-.PHONY : SimpsonPro.cpp.o
+Partition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/Partition.cpp.o
+.PHONY : Partition.cpp.o
 
-SimpsonPro.i: SimpsonPro.cpp.i
-.PHONY : SimpsonPro.i
+Partition.i: Partition.cpp.i
+.PHONY : Partition.i
 
 # target to preprocess a source file
-SimpsonPro.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SimpsonPro.cpp.i
-.PHONY : SimpsonPro.cpp.i
+Partition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/Partition.cpp.i
+.PHONY : Partition.cpp.i
 
-SimpsonPro.s: SimpsonPro.cpp.s
-.PHONY : SimpsonPro.s
+Partition.s: Partition.cpp.s
+.PHONY : Partition.s
 
 # target to generate assembly for a file
-SimpsonPro.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/SimpsonPro.cpp.s
-.PHONY : SimpsonPro.cpp.s
+Partition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_stl.dir/build.make CMakeFiles/2_stl.dir/Partition.cpp.s
+.PHONY : Partition.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 2_stl"
-	@echo "... SimpsonPro.o"
-	@echo "... SimpsonPro.i"
-	@echo "... SimpsonPro.s"
+	@echo "... Partition.o"
+	@echo "... Partition.i"
+	@echo "... Partition.s"
 .PHONY : help
 
 

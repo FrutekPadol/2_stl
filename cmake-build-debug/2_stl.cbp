@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/SimpsonPro.cpp">
+		<Unit filename="/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/Partition.cpp">
 			<Option target="2_stl"/>
 		</Unit>
 		<Unit filename="/home/iagoweng/Files/Trainings/Cpp/MyProjects/2_stl/CMakeLists.txt">
